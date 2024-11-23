@@ -1,0 +1,12 @@
+.card-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+
+
+@media (max-width: 1024px) {
+    .card-wrapper {
+        flex-wrap: wrap;
+    } 
+}
